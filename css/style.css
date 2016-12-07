@@ -1,3 +1,72 @@
-h1 {
-  color: salmon;
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #EDEFEC;
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 7.5pt;
+	line-height: 0.5em;
+	color: #575A5E;
+}
+
+.mainbox {
+
+}
+h3 {
+	padding-top: 30px;
+	font-size: 15pt;
+}
+.photo {
+	max-width: 500px;
+	height: auto;
+	flex: center;
+	overflow:visible;
+}
+.guidebooks {
+	display:flex;
+	margin-top: 10px;
+	justify-content: center;
+}
+.imgContainer {
+	position: relative;
+	margin: 8px;
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+}
+.imgContainer img {
+	height: 200px;
+	width: auto;
+	position: relative;
+	left: 100%;
+	margin-left: -200%;
+	z-index: -1
+}
+.caption {
+	position:absolute;
+	left: 0;
+	text-align: center;
+	width: 200px;
+	padding-top: 85px;
+	color: white;
+	font-size: 15pt;
+
+}
+.button {
+	background-color: white;
+	border: solid 1px #BDBDBD;
+	margin-top: 30px;
+	padding: 0 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 2.2em;
 }
