@@ -18,13 +18,14 @@ h3 {
 	padding-top: 30px;
 	font-size: 15pt;
 }
+
 .photo {
 	max-width: 500px;
 	height: auto;
 	flex: center;
 	overflow:visible;
 }
-.guidebooks {
+.imagerow{
 	display:flex;
 	margin-top: 10px;
 	justify-content: center;
@@ -45,7 +46,6 @@ h3 {
 	position: relative;
 	left: 100%;
 	margin-left: -200%;
-	z-index: -1
 }
 .caption {
 	position:absolute;
