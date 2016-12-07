@@ -10,7 +10,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 7.5pt;
-	line-height: 0.5em;
+	line-height: 1em;
 	color: #575A5E;
 }
 
@@ -31,6 +31,7 @@ h3 {
 	display:flex;
 	margin-top: 10px;
 	justify-content: center;
+	flex-flow:row wrap;
 }
 .imgContainer {
 	position: relative;
